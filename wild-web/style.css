@@ -2,7 +2,7 @@
 
 body {
     margin: 0px;
-    background-color: aquamarine;
+    background-color: grey;
 }
 
 div {
@@ -53,6 +53,10 @@ div.textgreen {
 }
 
 div.bgbrown {
+    background-color: brown;
+}
+
+div.bgwood {
     background-color: burlywood;
 }
 
@@ -93,4 +97,15 @@ div.width25 {
 
 div.width20 {
     width: 20%;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.title {
+    color:brown;
+    text-align: center;
+    font-style: italic;
 }
